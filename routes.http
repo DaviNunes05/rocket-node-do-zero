@@ -1,20 +1,20 @@
-POST http://localhost:3333/videos
+POST https://rocket-node-do-zero.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title":"Video 01",
+    "title":"Video Teste",
     "description": "Primeiro vídeo",
     "duration": 100
 }
 
 ###
-GET http://localhost:3333/videos?search=node
+GET https://rocket-node-do-zero.onrender.com/videos?search=node
 
 ###
-GET http://localhost:3333/videos
+GET https://rocket-node-do-zero.onrender.com/videos
 
 ###
-PUT http://localhost:3333/videos/50401fcc-41ac-4a28-9e70-849b07c6e54f
+PUT https://rocket-node-do-zero.onrender.com/videos/50401fcc-41ac-4a28-9e70-849b07c6e54f
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3333/videos/3c65d112-6b01-48f2-ad1a-920c950fbfa4
+DELETE https://rocket-node-do-zero.onrender.com//videos/3c65d112-6b01-48f2-ad1a-920c950fbfa4
